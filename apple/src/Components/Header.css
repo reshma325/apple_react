@@ -1,33 +1,56 @@
 #Header_screen{
     width: 99.89%;
     height: 44px;
-    border: 1px solid;
-    background-color: rgb(29, 29, 31);
+    /* border: 1px solid red; */
+    background-color:rgba(22, 22, 25, 0.8); 
+    position: fixed;
+    backdrop-filter :saturate(1.8) blur(20px);
+ 
 
 }
 #header_main{
     width: 59.2%;
     height: 100%;
-border: 1px solid yellow;
+/* border: 1px solid yellow; */
     margin: auto;
     padding: 0px 22px;
 }
 #header_list{
-    width: 101.6%;
+    width: 100%;
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px -8px;
     display: flex;
     justify-content: space-between;
 }
-#hlist_1{
-    width: 1.5%;
+#hlist_1,#hlist_2,#hlist_3,#hlist_4,#hlist_5,#hlist_6,#hlist_7,#hlist_8,#hlist_9,#hlist_10,#hlist_11,#hlist_12,#hlist_13{
+    
     height: 100%;
     padding: 0px 8px;
-    border: 1px solid rgb(52, 3, 245);
+    /* border: 1px solid rgb(52, 3, 245); */
+  
+}
+#hlist_1>img,#hlist_13>img{
+    width: 20px;
+    /* margin: 10px 10px 10px 1px; */
+    margin-top: 12px;
+    cursor: pointer;
+    
+    /* border: 1px solid green; */
+}
+#hlist_12>img{
+    width: 20px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+#hlist_2>p,#hlist_3>p,#hlist_4>p,#hlist_5>p,#hlist_6>p,#hlist_7>p,#hlist_8>p,#hlist_9>p,#hlist_10>p,#hlist_11>p{
+    font-size: 12px;
+    font-family: "SF Pro Text";
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    text-align: left;
+    margin-top: 16px;
+    cursor: pointer;
 
 }
-#hlist_1>img{
-  width: 110%;
-  height: 40px;
-}
+

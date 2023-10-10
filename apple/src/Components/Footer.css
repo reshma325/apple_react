@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+
+}
+
+#footer_screen {
+    width: 99.89%;
+    height: 672px;
+    background-color: rgb(245, 245, 247);
+    /* border: 1px solid black; */
+
+
+}
+
+#footer_main {
+    width: 70%;
+    /* border: 1px solid black; */
+    height: 100%;
+    margin: auto;
+    padding: 0px 22px;
+
+}
+
+#footer_notes {
+    width: 100%;
+    height: 147.1px;
+    padding: 17px 0px 11px 0px;
+    border-bottom: 1px solid rgb(210, 210, 215);
+}
+
+#footer_note_top {
+    width: 100%;
+    height: 112px;
+    padding-bottom: 9px;
+
+}
+
+#footer_note_top>p {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro Text";
+    color: rgb(110, 110, 115);
+    font-weight: 600;
+    text-align: left;
+    /* border: 1px solid; */
+
+}
+
+#footer_note_top>p>span {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-decoration: underline solid rgb(66, 66, 69);
+    font-family: "SF Pro Text";
+    color: rgb(66, 66, 69);
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+}
+
+#footer_note_bottom {
+    width: 100%;
+    height: 16px;
+
+
+
+}
+
+#footer_note_bottom>p {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro Text";
+    color: #6e6e73;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+#footer_list {
+    width: 100%;
+    height: 363px;
+    padding-top: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#flist_1,
+#flist_2,
+#flist_3,
+#flist_4,
+#flist_5 {
+    /* border: 1px solid green; */
+    width: 20%;
+    height: 100%;
+}
+
+#flist_1_top>h3,#flist_1_bottom>h3,#flist_2_top>h3,#flist_2_bottom>h3,#flist_3>h3,#flist_4_top>h3, #flist_4_mid>h3,#flist_4_bottom>h3,#flist_5_top>h3,#flist_5_bottom>h3{
+    width: 176px;
+    height: 16px;
+    margin-right: 20px;
+    margin-bottom: 9.6px;
+
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.12;
+    font-family: "SF Pro Text Bold";
+    color: rgb(0, 0, 0);
+ 
+    text-align: left;
+  
+}
+
+#flist_1_top>p,#flist_1_bottom>p,#flist_2_top>p,#flist_2_bottom>p,#flist_3>p,#flist_4_top>p,#flist_4_mid>p,#flist_4_bottom>p,#flist_5_top>p,#flist_5_bottom>p{
+    width: 176px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro Text";
+    color: rgb(66, 66, 69);
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 9.6px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#flist_1_top>p:hover,#flist_1_bottom>p:hover,#flist_2_top>p:hover,#flist_2_bottom>p:hover,#flist_3>p:hover,#flist_4_top>p:hover,#flist_4_mid>p:hover,#flist_4_bottom>p:hover,#flist_5_top>p:hover,#flist_5_bottom>p:hover{
+    text-decoration: underline solid rgb(66, 66, 69);
+}
+#flist_1_bottom{
+    padding-top: 24px;
+    width: 100%;
+    height: 41.5px;
+    /* border: 1px solid; */
+}
+#footer_end{
+    width: 100%;
+    height: 57.6px;
+    padding: 34px 0px 21px 0px;
+    /* border: 1px solid red; */
+}
+#fend_top{
+    width: 100%;
+    height: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid rgb(210, 210, 215);
+
+}
+#fend_top>p{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro Text";
+    color: rgb(110, 110, 115);
+    font-weight: 600;
+    text-align: left;
+}
+#fend_top>p>span{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro Text";
+    color: rgb(0, 102, 204);
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: underline solid rgb(0, 102, 204);
+}
+#fend_bottom{
+display: flex;
+justify-content: space-between;
+}
+#fend_b_left{
+    width: 80%;
+    height: 16px;
+    /* border: 1px solid; */
+
+}
+#fend_b_left>p{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro Text";
+    color: rgb(110, 110, 115);
+    font-weight: 600;
+    text-align: left;
+
+}
+#fend_b_left>p>span{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro Text";
+    color: rgb(110, 110, 115);
+    font-weight: 600;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#fend_b_left>p>span:hover{
+    text-decoration: underline solid rgb(110, 110, 115);
+}
+
+#fend_b_right{
+    width: 20%;
+    height: 16px;
+    /* border: 1px solid red; */
+}
+#fend_b_right>p{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro Text";
+    color: rgb(110, 110, 115);
+    font-weight: 600;
+    text-align: right;
+    margin-right: 3px;
+    cursor: pointer;
+}

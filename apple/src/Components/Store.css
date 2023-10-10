@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+
+}
+#store_screen{
+    width: 99.8%;
+    height: 4811px;
+    padding-top: 54px;
+    border:1px solid red;
+}
