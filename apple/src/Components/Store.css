@@ -2,9 +2,1001 @@
     margin: 0;
 
 }
-#store_screen{
+
+/* .navbar-bg {
+	background-color: rgb(29, 29, 31);
+	width: 100%;
+	height: 44px;
+    padding-top: 150px;
+    border: 1px solid green;
+} */
+#store_screen {
     width: 99.8%;
-    height: 4811px;
+    height: auto;
     padding-top: 54px;
-    border:1px solid red;
+    /* border: 1px solid red; */
+}
+
+#sSubNav {
+    /* border: 2px solid green; */
+    width: 72.5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: rgb(29, 29, 31);
+    margin: auto;
+}
+
+#sSubNav_main {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-left: 30px;
+}
+
+#sSubNav_text {
+    display: flex;
+    letter-spacing: 0.1px;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "SF Pro Text";
+
+    text-align: center;
+}
+
+#SSubNave_text_span {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 6px;
+    color: rgb(0, 102, 204);
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "SF Pro Text";
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+
+
+#sSubNav_leftArrow,
+#sSubNav_rightarrow {
+    color: rgb(134, 134, 139);
+    /* margin-top: 5px; */
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+#store_main {
+
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    background-color: rgb(245, 245, 247);
+
+}
+
+#store_h1 {
+
+    width: 82.4%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+#s_h1_right {
+    /* border: 1px solid red; */
+    width: 64%;
+
+    letter-spacing: -0.144px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 52px;
+
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+#s_h1_right>span {
+    color: rgb(110, 110, 115);
+    font-size: 49px;
+
+    letter-spacing: -0.144px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+
+    line-height: 52px;
+
+    cursor: text;
+    text-align: left;
+}
+
+#s_h1_left_top,
+#s_h1_left_bottom {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+#sh1_l_t_text,
+#sh1_l_b_text {
+
+    width: 175px;
+}
+
+#sh1_l_t_text>p,
+#sh1_l_b_text>p {
+    margin-left: 8px;
+    color: rgb(29, 29, 31);
+    cursor: text;
+    letter-spacing: -0.224px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+
+
+    text-align: left;
+}
+
+
+#sh1_l_t_text>p:nth-child(2),
+#sh1_l_b_text>p:nth-child(2) {
+    color: rgb(0, 102, 204);
+    cursor: pointer;
+    letter-spacing: -0.224px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+
+    text-align: left;
+
+
+}
+
+#sh1_l_t_text>p:nth-child(2):hover,
+#sh1_l_b_text>p:nth-child(2):hover {
+    text-decoration-line: underline;
+}
+
+#sh1_l_t_img,
+#sh1_l_b_img {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 22px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 6px 0px 0px;
+}
+
+#store_scroll_1 {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 88px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+}
+
+#store_scroll_1::-webkit-scrollbar {
+    display: none;
+}
+
+#store_scoll_1_blank {
+    /* border: 1px solid black; */
+    min-width: 122px;
+    height: 114px;
+    text-align: center;
+    margin-right: -12px;
+}
+
+#store_scoll {
+    /* border: 1px solid black; */
+    height: 114px;
+    text-align: center;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+
+
+#store_scoll_img {
+    width: 120px;
+    height: 78px;
+    margin-bottom: 16px;
+}
+
+#store_scoll_img>img {
+    width: 100%;
+    height: 100%;
+}
+
+#store_scoll>p:hover {
+    text-decoration-line: underline;
+}
+
+
+#store_scroll_2 {
+    /* border: 1px solid black; */
+    margin-top: 90px;
+}
+
+#store_scroll_2>p {
+    padding-left: 118px;
+    color: rgb(29, 29, 31);
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
+
+}
+
+#store_scroll_2>p>span {
+    color: rgb(110, 110, 115);
+}
+
+#store_scoll_2_main {
+    /* border: 1px solid grey; */
+    display: flex;
+    overflow-x: scroll;
+    padding: 25px 0px;
+    cursor: pointer;
+}
+
+#store_scoll_2_main::-webkit-scrollbar {
+    display: none;
+}
+
+#store_scoll_2_main>div {
+    transition: 0.4s;
+    box-shadow: 1px 1px 20px 1px rgba(200, 200, 200, 0.3);
+}
+
+#store_scoll_2_main>div:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 20px 1px rgb(200, 200, 200);
+}
+
+#store_scoll_2_blank {
+    /* border:1px solid red; */
+    min-width: 117px;
+    margin-right: -10px;
+}
+
+#store_scroll_2_iphonePro {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_2_iphone {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_2_watch9 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_IN?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1693501324197);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_2_watchUltra {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-ultra-202309_GEO_IN?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1693861933617);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_2_airpods {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-airpods-pro-202209?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1661016986712);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_2_mac {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1683844828182);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_2_ipad {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-air-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645636337374);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_2_card {
+    padding: 30px;
+    letter-spacing: 0.8px;
+}
+
+#store_scroll_2_card_name_W {
+    color: rgb(245, 245, 247);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+
+
+
+    line-height: 16px;
+
+}
+
+#store_scroll_2_card_text_W {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+}
+
+#store_scroll_2_card_price_W {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+
+    line-height: 21px;
+    letter-spacing: -0.374px;
+    font-family: "SF Pro";
+    margin-top: 8px;
+}
+
+
+#store_scroll_2_card_name_B {
+    color: rgb(110, 110, 115);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+
+
+
+    line-height: 16px;
+}
+
+#store_scroll_2_card_text_B {
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+}
+
+#store_scroll_2_card_price_B {
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    font-weight: 400;
+
+    line-height: 21px;
+    letter-spacing: -0.374px;
+    font-family: "SF Pro";
+    margin-top: 8px;
+}
+
+#store_scroll_3 {
+    /* border: 1px solid black; */
+    margin-top: 90px;
+}
+
+#store_scroll_3>p {
+    padding-left: 118px;
+    color: rgb(29, 29, 31);
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
+
+}
+
+#store_scroll_3>p>span {
+    color: rgb(110, 110, 115);
+}
+
+#store_scoll_3_main {
+    /* border: 1px solid grey; */
+    display: flex;
+    overflow-x: scroll;
+    padding: 25px 0px;
+    cursor: pointer;
+}
+
+#store_scoll_3_main::-webkit-scrollbar {
+    display: none;
+}
+
+#store_scoll_3_main>div {
+    transition: 0.4s;
+    box-shadow: 1px 1px 20px 1px rgba(200, 200, 200, 0.3);
+}
+
+#store_scoll_3_main>div:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 20px 1px rgb(200, 200, 200);
+}
+
+#store_scoll_3_blank {
+    /* border:1px solid red; */
+    min-width: 117px;
+    margin-right: -10px;
+}
+
+#store_scroll_3_offer {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-festive-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761585206);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+}
+
+#store_scroll_3_iphone {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-iphone-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587681);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_3_mac {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-mac-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589457);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_3_ipad {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-ipad-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587575);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_3_watch {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-watch-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589863);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_3_apple {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-todayatapple-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589579);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+
+
+#store_scroll_3_card {
+    padding: 30px;
+    letter-spacing: 0.8px;
+}
+
+#store_scroll_3_card_name_1 {
+    color: rgb(234, 145, 69);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+
+
+
+    line-height: 16px;
+
+}
+
+#store_scroll_3_card_name_2 {
+    color: rgb(230, 172, 185);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+
+
+
+    line-height: 16px;
+
+}
+
+#store_scroll_3_card_name_3 {
+    color: rgb(216, 182, 18);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+
+
+
+    line-height: 16px;
+
+}
+
+#store_scroll_3_card_name_4 {
+    color: rgb(242, 83, 98);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+
+
+
+    line-height: 16px;
+
+}
+
+#store_scroll_3_card_name_5 {
+    color: rgb(214, 171, 0);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+
+
+
+    line-height: 16px;
+
+}
+
+#store_scroll_3_card_name_6 {
+    color: rgb(102, 168, 206);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+
+
+
+    line-height: 16px;
+
+}
+
+#store_scroll_3_card_text {
+    color: rgb(240, 227, 202);
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+}
+
+
+
+
+
+#store_scroll_4 {
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+#store_scroll_4>p {
+    padding-left: 118px;
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+
+    font-family: "SF Pro";
+
+
+
+    line-height: 32px;
+}
+
+#store_scroll_4>p>span {
+    color: rgb(110, 110, 115);
+}
+
+#store_scoll_4_main {
+    /* border: 1px solid grey; */
+    display: flex;
+    overflow-x: scroll;
+    padding: 25px 0px;
+    cursor: pointer;
+}
+
+
+#store_scoll_4_main>div {
+    transition: 0.4s;
+    box-shadow: 1px 1px 20px 1px rgba(200, 200, 200, 0.3);
+}
+
+#store_scoll_4_main::-webkit-scrollbar {
+    display: none;
+}
+
+.hih-content>div {
+    transition: 0.4s;
+}
+
+#store_scoll_4_main>div:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 20px 1px rgb(200, 200, 200);
+}
+
+#store_scoll_4_blank {
+    min-width: 117px;
+    margin-right: -10px;
+}
+
+#store_scroll_4_specialist {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-diwali-specialist-help-202310?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1696608687398);
+    color: white;
+    border-radius: 18px;
+    min-width: 480px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_4_business {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-business-202209_GEO_IN?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1661285670376);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+}
+
+#store_scroll_4_know {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-personal-session-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1630612234000);
+    color: white;
+    border-radius: 18px;
+    min-width: 480px;
+    height: 500px;
+    margin: 0px 10px;
+}
+
+#store_scroll_4_learn {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-support-app-202308_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1691156993472);
+    color: white;
+    border-radius: 18px;
+    min-width: 480px;
+    height: 500px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#store_scroll_4_card {
+    padding: 30px;
+    letter-spacing: 0.8px;
+}
+
+#store_scroll_4_name_1 {
+    color: rgb(100, 166, 204);
+    font-size: 12px;
+    font-weight: 600;
+    vertical-align: baseline;
+    line-height: 16px;
+    /* letter-spacing: -0.12px; */
+    font-family: "SF Pro";
+    word-spacing: 3px;
+}
+
+#store_scroll_4_name_2 {
+    color: rgb(134, 134, 139);
+
+    font-size: 12px;
+    font-weight: 600;
+    vertical-align: baseline;
+    line-height: 16px;
+    /* letter-spacing: -0.12px; */
+    font-family: "SF Pro";
+}
+
+#store_scroll_4_name_3 {
+    color: rgb(110, 110, 115);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#store_scroll_4_name_4 {
+    color: rgb(110, 110, 115);
+
+
+    font-size: 12px;
+    font-weight: 600;
+    vertical-align: baseline;
+    line-height: 16px;
+    /* letter-spacing: -0.12px; */
+    font-family: "SF Pro";
+    word-spacing: 2px;
+}
+
+#store_scroll_4_text_1 {
+    color: rgb(240, 227, 202);
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+
+}
+
+#store_scroll_4_text_2 {
+    color: rgb(250, 250, 250);
+    font-size: 29px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+}
+
+#store_scroll_4_text_3 {
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+}
+
+#store_scroll_4_text_4 {
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+}
+
+#store_scroll_4_Overview {
+    background-color: white;
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    letter-spacing: 0.4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: "SF Pro";
+}
+
+#store_scroll_play {
+    border-radius: 40px;
+    color: rgb(232, 232, 237);
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#store_scroll_play>div {
+    background-color: rgb(113, 113, 113);
+    width: 20px;
+    height: 20px;
+    margin-right: -25px;
+}
+
+#store_scroll_5 {
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+#store_scroll_5>p {
+    padding-left: 118px;
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    font-family: "SF Pro";
+}
+
+#store_scroll_5>p>span {
+    color: rgb(110, 110, 115);
+}
+
+#store_scroll_5_main {
+    /* border: 1px solid grey; */
+    display: flex;
+    overflow-x: scroll;
+    padding: 25px 0px;
+    cursor: pointer;
+}
+
+#store_scroll_5_main::-webkit-scrollbar {
+    display: none;
+}
+
+#store_scroll_5_main>div {
+    transition: 0.4s;
+    box-shadow: 1px 1px 20px 1px rgba(200, 200, 200, 0.3);
+}
+
+#store_scroll_5_main>div:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 20px 1px rgb(200, 200, 200);
+}
+
+#store_scroll_5_card_1,
+#store_scroll_5_card_2,
+#store_scroll_5_card_3,
+#store_scroll_5_card_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 30px;
+    /* border: 1px solid yellowgreen; */
+   
+}
+
+
+
+#store_scroll_5_blank {
+    /* border: 1px solid red; */
+    min-width: 117px;
+    margin-right: -10px;
+}
+
+#store_scroll_5_card {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-17-diwali-difference-tradein-202310?wid=313&hei=240&fmt=jpeg&qlt=95&.v=1696281489379);
+    color: black;
+    border-radius: 18px;
+    min-width: 313px;
+    height: 240px;
+    margin: 0px 10px;
+    /* border: 1px solid red; */
+}
+
+#store_scroll_5_card1_text{
+    color: rgb(240, 227, 202);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    letter-spacing: 0.4px;
+    font-family: "SF Pro";
+}
+
+#store_scroll_5_card1_text>span{
+    color: rgb(104, 204, 69);
+}
+
+#store_scroll_5_card1_icon{
+    font-size: 16px;
+    color: rgb(104, 204, 69);
+}
+
+
+#store_scroll_5_card2_icon{
+ 
+    width: 48px;
+    height: 40px;
+    margin-top: -10px;
+}
+#store_scroll_5_card2_icon>img{
+    width: 40px;
+    height: 40px;
+}
+
+#store_scroll_5_card2_text {
+    color: rgb(192, 57, 120);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 0.4px;
+    font-family: "SF Pro";
+}
+
+#store_scroll_5_card2_text>span {
+    color: rgb(240, 227, 202);
+}
+
+
+
+#store_scroll_5_card3_text {
+    color: rgb(29, 29, 31);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 0.4px;
+    font-family: "SF Pro";
+    margin-top: 10px;
+}
+
+
+#store_scroll_5_card3_text>span{
+    color:rgb(100, 166, 204)
+
+
+}
+
+#store_scroll_5_card3_icon{
+    width: 42px;
+    height: 42px;
+    margin-top: -15px;
+}
+#store_scroll_5_card3_icon>img{
+    width: 50px;
+    height: 50px;
+}
+
+
+#store_scroll_5_card4_icon {
+ 
+    width: 42px;
+    height: 42px;
+    margin-top: -15px;
+}
+#store_scroll_5_card4_icon >img{
+    width: 40px;
+    height: 40px;
+}
+#store_scroll_5_card4_text{
+    color: rgb(231, 116, 3);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    margin-top: 4px;
+    font-family: "SF Pro";
+}
+#store_scroll_5_card4_text>span {
+    color:rgb(240, 227, 202);
 }

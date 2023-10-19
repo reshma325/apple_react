@@ -1,21 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Header.css'
 import logo from '../Images/logo.png'
 import search from '../Images/search.png'
 import bag from '../Images/bag.png'
+import { useNavigate } from 'react-router-dom'
 
 
-const Header = ({backgroundColor}) => {
+const Header = () => {
+const router=useNavigate()
   return (
-    <Header style={{backgroundColor}}>
+
     <div id='Header_screen'>
       <div id='header_main'>
         <div id='header_list'>
           <div id='hlist_1'>
-            <img src={logo} alt='' />
+            <img onClick={()=>router('/')} src={logo} alt='' />
           </div>
-          <div id='hlist_2'>
-            <p>Store</p>
+          <div id='hlist_2' >
+            <p onClick={()=>router('/store')}>Store</p>
           </div>
           <div id='hlist_3'>
             <p>Mac</p></div>
@@ -48,7 +50,7 @@ const Header = ({backgroundColor}) => {
 
 
     </div>
-    </Header>
+  
   )
 }
 
