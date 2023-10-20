@@ -1,0 +1,1198 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#cart_screen {
+    width: 99.8%;
+    height: auto;
+    padding-top: 54px;
+    /* border: 1px solid red; */
+}
+
+#cSubNav {
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: rgb(29, 29, 31);
+    margin: auto;
+    background-color: rgb(245, 245, 247);
+}
+
+#cSubNav_main {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-left: 30px;
+}
+
+#cSubNav_text {
+    display: flex;
+    letter-spacing: 0.1px;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "SF Pro Text";
+
+    text-align: center;
+}
+
+#cSubNave_text_span {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 6px;
+    color: rgb(0, 102, 204);
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "SF Pro Text";
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+
+
+#cSubNav_leftArrow,
+#cSubNav_rightarrow {
+    color: rgb(134, 134, 139);
+    /* margin-top: 5px; */
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+#cart_main {
+    width: 70%;
+    height: 1800px;
+    /* border: 1px solid green; */
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+#cart_h1 {
+    width: 100%;
+    height: 112.4px;
+    padding: 10px 0px 60px 0px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+#cart_h1>h1 {
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0.6px;
+    word-spacing: 0.3px;
+
+
+    text-align: center;
+
+    cursor: pointer;
+
+}
+
+#cart_h1_button {
+    width: 100%;
+    height: 67px;
+    cursor: pointer;
+    /* border: 1px dotted red; */
+}
+
+#cart_h1_button_main {
+    margin-top: 31px;
+    width: 290px;
+    height: 35.4px;
+    /* border: 1px solid blue; */
+    margin: 31px 344px 0px 344px;
+}
+
+#cart_h1_button_main>button {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 113, 227);
+    padding: 7px 15px;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 8px;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.374px;
+
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#cart_items {
+    width: 100%;
+    height: auto;
+    /* border: 1px dotted black; */
+    margin-top: 71px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+#cart_item_1 {
+    width: 100%;
+    height: 531px;
+    margin-bottom: 78px;
+    /* border: 1px solid blue; */
+}
+
+#cart_item_1_info {
+    width: 100%;
+    height: 454.1px;
+    border-bottom: 1px solid rgb(210, 210, 215);
+    padding-bottom: 76px;
+    /* margin-bottom: 78px; */
+    display: flex;
+
+}
+
+#cart_item_1_info_img {
+    width: 245px;
+    height: 100%;
+    /* border: 1px solid brown; */
+}
+
+#cart_item_1_info_img>img {
+    width: 203px;
+    height: 203px;
+    /* border: 1px solid; */
+    margin-left: 9%;
+
+}
+
+#cart_item_1_info_details {
+    width: 735px;
+    height: 100%;
+    /* border: 1px solid rgb(0, 213, 255); */
+}
+
+#cart_item_1_info_details_1 {
+    width: 100%;
+    height: 179px;
+    /* border-bottom: 1px solid rgb(210, 210, 215); */
+    /* border: 1px solid green; */
+}
+
+#item_detail_1_1 {
+    display: flex;
+}
+
+#item_detail_1_1_l {
+    width: 347.4px;
+    height: 56px;
+    padding-right: 20px;
+    /* border: 1px solid rgb(0, 213, 255); */
+}
+
+#item_detail_1_1_l>h1 {
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+#item_detail_1_1_l>h1:hover {
+    color: rgb(29, 123, 218);
+}
+
+
+#item_detail_1_1_m {
+    width: 103px;
+    height: 56px;
+    /* border: 1px solid rgb(0, 213, 255); */
+
+}
+
+#item_detail_1_1_m>div:nth-child(1) {
+    width: 83.9px;
+    height: 43.3px;
+    padding-left: 19px;
+    margin-top: -2px;
+    /* border: 1px dotted red; */
+}
+
+#item_detail_1_1_m>div>div {
+    width: 42px;
+    height: 29.3px;
+
+    /* border: 1px solid blue; */
+    margin-bottom: 14px;
+}
+
+#item_detail_1_1_m>div>div>select {
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+#item_detail_1_1_m>div>div>select>option {
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+#item_detail_1_1_r {
+    width: 264.5px;
+    height: 56px;
+    /* border: 1px solid rgb(0, 213, 255); */
+}
+
+#item_detail_1_1_r>div {
+    width: 254.5px;
+    height: 28px;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+}
+
+#item_detail_1_1_r>div>p {
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+
+    color: rgb(29, 29, 31);
+    text-align: right;
+
+
+}
+
+#item_detail_1_2 {
+    width: 100%;
+    height: 123px;
+    /* border: 1px solid; */
+}
+
+#item_detail_1_2_t {
+    width: 99.6%;
+    height: 20px;
+    margin: 14px 0px 5px 0px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#item_detail_1_2_t>p {
+    font-family: "SF Pro";
+    font-weight: 300;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.224px;
+
+
+    text-align: left;
+
+
+}
+
+#item_detail_1_2_m {
+    width: 99.5%;
+    height: 37px;
+    margin-bottom: 5px;
+    /* border :1px solid brown ; */
+}
+
+#item_detail_1_2_m>p,
+#item_detail_1_2_b>p {
+    text-align: right;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(0, 102, 204);
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.224px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+#item_detail_1_2_m>p:hover,
+#item_detail_1_2_b>p:hover {
+    text-decoration-line: underline;
+}
+
+#item_detail_1_2_b {
+    width: 99.5%;
+    height: 37px;
+    margin-bottom: 5px;
+    /* border :1px solid blue; */
+}
+
+#cart_item_1_info_details_2 {
+    width: 100%;
+    height: 92px;
+    margin-top: 21px;
+    border-top: 1px solid rgb(210, 210, 215);
+    /* border: 1px solid red; */
+}
+
+#cart_item_1_info_details_2>div {
+    width: 735px;
+    height: 71px;
+    padding-top: 21px;
+    /* border: 1px dotted rgb(0, 255, 76); */
+    display: flex;
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(1) {
+    width: 20px;
+    height: 98%;
+    margin-top: 1px;
+    margin-left: 2px;
+    /* border: 1px solid blue; */
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(1)>i {
+    width: 18px;
+    height: 18px;
+
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(2)>div:nth-child(1) {
+    width: 709px;
+    height: 25px;
+    /* border:1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(2)>div:nth-child(1)>h3 {
+    width: 531px;
+    height: 25px;
+    /* border: 1px solid; */
+    text-align: left;
+    font-family: "SF Pro";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+
+
+
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(2)>div:nth-child(1)>p,
+#cart_item_1_info_details_3_text>p:nth-child(2) {
+    color: rgb(0, 102, 204);
+    font-family: "SF Pro Text";
+    font-weight: 600;
+
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.224px;
+    cursor: pointer;
+    text-align: right;
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(2)>div:nth-child(1)>p:hover {
+    text-decoration: underline;
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(2)>div:nth-child(2) {
+    width: 634px;
+    height: 46.007px;
+    /* border: 1px solid aqua; */
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(2)>div:nth-child(2)>p:nth-child(1) {
+    margin: 3px 0px -2px 0px;
+    text-align: left;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.224px;
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(2)>div:nth-child(2)>p:nth-child(2) {
+    text-align: left;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(0, 102, 204);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.224px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#cart_item_1_info_details_2>div>div:nth-child(2)>div:nth-child(2)>p:nth-child(2):hover,
+#cart_item_1_info_details_3_text>p:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+#cart_item_1_info_details_3 {
+    width: 734px;
+    height: 25px;
+    padding-top: 21px;
+    margin-top: 21px;
+    border-top: 1px solid rgb(210, 210, 215);
+    display: flex;
+}
+
+#cart_item_1_info_details_3_icon {
+    width: 25px;
+    height: 85%;
+    padding-top: 2px;
+    /* border: 1px solid blue; */
+}
+
+#cart_item_1_info_details_3_icon>img {
+    width: 18px;
+    height: 18px;
+
+
+
+}
+
+#cart_item_1_info_details_3_text {
+    width: 708px;
+    height: 25px;
+    /* border :1px solid ; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart_item_1_info_details_3_text>p:nth-child(1) {
+    font-family: "SF Pro";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.374px;
+    text-align: left;
+    word-spacing: 0.2px;
+}
+
+#cart_item_1_info_details_4 {
+    width: 735px;
+    height: 51px;
+    padding-top: 21px;
+    margin-top: 21px;
+    /* border: 1px solid red; */
+}
+
+#cart_item_1_info_details_4_main {
+    width: 100%;
+    height: 50px;
+    margin-top: 1px;
+    /* border: 1px solid green; */
+    display: flex;
+}
+#cart_item_1_info_details_4_l{
+    width: 310px;
+    height: 50px;
+    /* border: 1px solid blue; */
+}
+#cart_item_1_info_details_4_l_main,#cart_item_1_info_details_4_r_main{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    /* border: 1px solid green; */
+    display: flex;
+
+}
+#box,#bag_{
+    width: 28px;
+    height: 85%;
+    padding-top: 2px;
+    /* border: 1px solid blue; */
+}
+#box>img,#bag_>img{
+    width: 25px;
+    height: 25px;
+}
+#cart_item_1_info_details_4_l_text,#cart_item_1_info_details_4_r_text{
+    width: 284px;
+    height: 40px;
+    /* margin-left: 10px; */
+    /* border: 1px solid; */
+}
+#cart_item_1_info_details_4_l_text>p:nth-child(1){
+    text-align: left;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+
+}
+#cart_item_1_info_details_4_l_text>p:nth-child(1)>span{
+   color:rgb(0, 102, 204) ; 
+   cursor: pointer;
+}
+#cart_item_1_info_details_4_l_text>p:nth-child(1)>span:hover,#two:hover{
+    text-decoration: underline;
+}
+#cart_item_1_info_details_4_l_text>p:nth-child(2){
+    text-align: left;
+    font-family: "SF Pro";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+}
+
+#cart_item_1_info_details_4_r{
+    width: 217.69px;
+    height: 50px;
+    margin-left: 18px;
+    /* border: 1px solid blue; */
+}
+#cart_item_1_info_details_4_r_text>p:nth-child(1),#cart_item_1_info_details_4_r_text>p:nth-child(2){
+    text-align: left;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+}
+#one{
+    text-align: left;
+    font-family: "SF Pro";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+}
+#two{
+    text-align: left;
+    font-family: "SF Pro text";
+    font-weight: 600;
+cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    color:rgb(0, 102, 204) ;   
+}
+
+#cart_item_2 {
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 78px; */
+    /* border: 1px solid blue; */
+}
+
+#cart_item_2_info {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(210, 210, 215);
+    padding-bottom: 76px;
+    /* margin-bottom: 78px; */
+    display: flex;
+    /* margin-top: 78px; */
+    
+
+}
+
+#cart_item_2_info_img {
+    width: 245px;
+    height: 100%;
+    /* border: 1px solid brown; */
+}
+
+#cart_item_2_info_img>img {
+    width: 203px;
+    height: 203px;
+    /* border: 1px solid; */
+    margin-left: 9%;
+
+}
+
+#cart_item_2_info_details {
+    width: 735px;
+    height: 100%;
+    /* border: 1px solid rgb(0, 213, 255); */
+}
+
+#cart_item_2_info_details_1 {
+    width: 100%;
+    height: 179px;
+    /* border-bottom: 1px solid rgb(210, 210, 215); */
+    /* border: 1px solid green; */
+}
+
+#item_detail_2_1 {
+    display: flex;
+}
+
+#item_detail_2_1_l {
+    width: 347.4px;
+    height: 112px;
+    padding-right: 20px;
+    /* border: 1px solid rgb(0, 213, 255); */
+}
+
+#item_detail_2_1_l>h1 {
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+#item_detail_2_1_l>h1:hover {
+    color: rgb(29, 123, 218);
+}
+
+
+#item_detail_2_1_m {
+    width: 103px;
+    height: 112px;
+    /* border: 1px solid rgb(0, 213, 255); */
+
+}
+
+#item_detail_2_1_m>div:nth-child(1) {
+    width: 83.9px;
+    height: 43.3px;
+    padding-left: 19px;
+    margin-top: -2px;
+    /* border: 1px dotted red; */
+}
+
+#item_detail_2_1_m>div>div {
+    width: 42px;
+    height: 29.3px;
+
+    /* border: 1px solid blue; */
+    margin-bottom: 14px;
+}
+
+#item_detail_2_1_m>div>div>select {
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+#item_detail_2_1_m>div>div>select>option {
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+#item_detail_2_1_r {
+    width: 264.5px;
+    height: 112px;
+    /* border: 1px solid rgb(0, 213, 255); */
+}
+
+#item_detail_2_1_r>div {
+    width: 254.5px;
+    height: 28px;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+}
+
+#item_detail_2_1_r>div>p {
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+
+
+    text-align: right;
+
+
+}
+
+#item_detail_2_2 {
+    width: 100%;
+    height: 147px;
+    /* border: 1px solid; */
+}
+
+#item_detail_2_2_t {
+    width: 99.6%;
+    height: 20px;
+    margin: 14px 0px 5px 0px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#item_detail_2_2_t>p {
+    font-family: "SF Pro";
+    font-weight: 300;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.224px;
+
+
+    text-align: left;
+
+
+}
+
+#item_detail_2_2_m {
+    width: 99.5%;
+    height: 37px;
+    margin-bottom: 5px;
+    /* border :1px solid brown ; */
+}
+
+#item_detail_2_2_m>p,
+#item_detail_2_2_b>p {
+    text-align: right;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(0, 102, 204);
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.224px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+#item_detail_2_2_m>p:hover,
+#item_detail_2_2_b>p:hover {
+    text-decoration-line: underline;
+}
+
+#item_detail_2_2_b {
+    width: 99.5%;
+    height: 37px;
+    margin-bottom: 5px;
+    /* border :1px solid blue; */
+}
+
+#cart_item_2_info_details_2 {
+    width: 100%;
+    height: 147px;
+    margin-top: 75px;
+    border-top: 1px solid rgb(210, 210, 215);
+    /* border: 1px solid red; */
+}
+
+#cart_item_2_info_details_2>div {
+    width: 735px;
+    height: 71px;
+    padding-top: 21px;
+    /* border: 1px dotted rgb(0, 255, 76); */
+    display: flex;
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(1) {
+    width: 20px;
+    height: 98%;
+    margin-top: 1px;
+    margin-left: 2px;
+    /* border: 1px solid blue; */
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(1)>i {
+    width: 18px;
+    height: 18px;
+
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(2)>div:nth-child(1) {
+    width: 709px;
+    height: 25px;
+    /* border:1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(2)>div:nth-child(1)>h3 {
+    width: 526px;
+    height: 25px;
+    /* border: 1px solid; */
+    text-align: left;
+    font-family: "SF Pro";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+
+
+
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(2)>div:nth-child(1)>p,
+#cart_item_2_info_details_3_text>p:nth-child(2) {
+    color: rgb(0, 102, 204);
+    font-family: "SF Pro Text";
+    font-weight: 600;
+
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.224px;
+    cursor: pointer;
+    text-align: right;
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(2)>div:nth-child(1)>p:hover {
+    text-decoration: underline;
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(2)>div:nth-child(2) {
+    width: 634px;
+    height: 46.007px;
+    /* border: 1px solid aqua; */
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(2)>div:nth-child(2)>li {
+    margin: 3px 0px -2px 0px;
+    text-align: left;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.224px;
+    list-style-type:disc ;
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(2)>div:nth-child(2)>p {
+    text-align: left;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(0, 102, 204);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.224px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#cart_item_2_info_details_2>div>div:nth-child(2)>div:nth-child(2)>p:hover,
+#cart_item_2_info_details_3_text>p:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+#cart_item_2_info_details_3 {
+    width: 734px;
+    height: 25px;
+    padding-top: 21px;
+    margin-top: 21px;
+    border-top: 1px solid rgb(210, 210, 215);
+    display: flex;
+}
+
+#cart_item_2_info_details_3_icon {
+    width: 25px;
+    height: 85%;
+    padding-top: 2px;
+    /* border: 1px solid blue; */
+}
+
+#cart_item_2_info_details_3_icon>img {
+    width: 18px;
+    height: 18px;
+
+
+
+}
+
+#cart_item_2_info_details_3_text {
+    width: 708px;
+    height: 25px;
+    /* border :1px solid ; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart_item_2_info_details_3_text>p:nth-child(1) {
+    font-family: "SF Pro";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.374px;
+    text-align: left;
+    word-spacing: 0.2px;
+}
+
+#cart_item_2_info_details_4 {
+    width: 735px;
+    height: 51px;
+    padding-top: 21px;
+    margin-top: 21px;
+    /* border: 1px solid red; */
+}
+
+#cart_item_2_info_details_4_main {
+    width: 100%;
+    height: 50px;
+    margin-top: 1px;
+    /* border: 1px solid green; */
+    display: flex;
+}
+#cart_item_2_info_details_4_l{
+    width: 310px;
+    height: 50px;
+    /* border: 1px solid blue; */
+}
+#cart_item_2_info_details_4_l_main,#cart_item_2_info_details_4_r_main{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    /* border: 1px solid green; */
+    display: flex;
+
+}
+#box,#bag_{
+    width: 28px;
+    height: 85%;
+    padding-top: 2px;
+    /* border: 1px solid blue; */
+}
+#box>img,#bag_>img{
+    width: 25px;
+    height: 25px;
+}
+#cart_item_2_info_details_4_l_text,#cart_item_2_info_details_4_r_text{
+    width: 284px;
+    height: 40px;
+    /* margin-left: 10px; */
+    /* border: 1px solid; */
+}
+#cart_item_2_info_details_4_l_text>p:nth-child(1){
+    text-align: left;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+
+}
+#cart_item_2_info_details_4_l_text>p:nth-child(1)>span{
+   color:rgb(0, 102, 204) ; 
+   cursor: pointer;
+}
+#cart_item_2_info_details_4_l_text>p:nth-child(1)>span:hover,#four:hover{
+    text-decoration: underline;
+}
+#cart_item_2_info_details_4_l_text>p:nth-child(2){
+    text-align: left;
+    font-family: "SF Pro";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+}
+
+#cart_item_2_info_details_4_r{
+    width: 217.69px;
+    height: 50px;
+    margin-left: 18px;
+    /* border: 1px solid blue; */
+}
+#cart_item_2_info_details_4_r_text>p:nth-child(1),#cart_item_2_info_details_4_r_text>p:nth-child(2){
+    text-align: left;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+}
+#three{
+    text-align: left;
+    font-family: "SF Pro";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+}
+#four{
+    text-align: left;
+    font-family: "SF Pro text";
+    font-weight: 600;
+cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    color:rgb(0, 102, 204) ;   
+}
+#order_summary{
+    width: 100%;
+    height: 211px;
+    /* border: 1px dotted red; */
+    margin-top: 41px;
+}
+#os_main{
+    width: 735px;
+    height: 211px;
+    margin-left: auto;
+    /* border: 1px solid; */
+}
+#os_1,#os_2,#os_4{
+    width: 100%;
+    height: 25px;
+    /* border: 1px solid green; */
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#os_1>p,#os_2>p,#os_3>p{
+    font-family: "SF Pro";
+    font-weight: 500;
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -0.374px;
+     
+}
+
+#os_5{
+    width: 100%;
+    height: 25px;
+    /* border: 1px solid green; */
+    margin-bottom: 5px;
+}
+#os_5>p{
+    font-family: "SF Pro";
+    font-weight: 500;
+    color: rgb(191, 72, 0);
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: -0.374px;
+}
+#os_3{
+    width: 100%;
+    height: 27px; 
+    padding-top: 19px;
+    margin-top: 16px;
+    border-top: 1px solid rgb(210, 210, 215); 
+    display: flex;
+    justify-content: space-between;
+}
+#os_3>p{
+    font-family: "SF Pro";
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+}
+#os_6{
+    width: 100%;
+    height: 30px; 
+    /* border: 1px solid green;  */
+}
+#os_6>p{
+    text-align: right;
+    font-family: "SF Pro text";
+    font-weight: 600;
+cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.224px;
+    color:rgb(0, 102, 204) ;   
+}
+#os_6>p:hover{
+    text-decoration: underline;
+}
+#checkOut_button{
+    width: 100%;
+    height: 90.5px;
+    /* border: 1px solid green; */
+}
+#cb_main{
+    width: 75%;
+    height: 90.5px;
+    margin-left: 244px;
+    /* border: 2px solid; */
+}
+#cb{
+    width: 360px;
+    height: 55.5px;
+    /* border: 1px solid red; */
+    margin-top: 35px;
+   margin-left: 51%;
+}
+#cb>button{
+    width: 360px;
+    /* height: 20px; */
+    background-color: rgb(0, 113, 227);
+    padding: 17px 30px;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 12px;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.374px;
+
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+
