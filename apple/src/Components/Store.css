@@ -201,7 +201,7 @@
 }
 
 #store_scroll_1::-webkit-scrollbar {
-    display: none;
+    display: block;
 }
 
 #store_scoll_1_blank {
@@ -223,6 +223,7 @@
 
 
 #store_scoll_img {
+ 
     width: 120px;
     height: 78px;
     margin-bottom: 16px;
@@ -231,6 +232,15 @@
 #store_scoll_img>img {
     width: 100%;
     height: 100%;
+}
+#store_scoll>p{
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 20px;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
 }
 
 #store_scoll>p:hover {

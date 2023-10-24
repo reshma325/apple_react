@@ -22,6 +22,7 @@
     background-color: rgb(245, 245, 247);
 }
 
+
 #cSubNav_main {
     /* border: 1px solid red; */
     width: 100%;
@@ -33,22 +34,22 @@
     margin-left: 30px;
 }
 
-#cSubNav_text {
+#cSubNav_text >p:nth-child(1){
     display: flex;
     letter-spacing: 0.1px;
     font-family: "SF Pro Text";
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    font-family: "SF Pro Text";
-
+    /* font-family: "SF Pro Text";
+border: 1px solid; */
     text-align: center;
 }
 
-#cSubNave_text_span {
+#cSubNav_text >p:nth-child(2){
     /* border: 1px solid red; */
-    display: flex;
-    margin-left: 6px;
+    /* display: flex; */
+    /* margin-left: 6px; */
     color: rgb(0, 102, 204);
     font-family: "SF Pro Text";
     font-weight: 600;
@@ -59,6 +60,9 @@
     text-align: center;
 
     cursor: pointer;
+}
+#cSubNav_text >p:nth-child(2):hover{
+    text-decoration: underline;
 }
 
 

@@ -41,7 +41,7 @@ const router=useNavigate()
             <img src={search} alt=''/>
           </div>
           <div id='hlist_13'>
-          <img src={bag} alt=''/>
+          <img onClick={()=>router('/cart')} src={bag} alt=''/>
           </div>
 
         </div>

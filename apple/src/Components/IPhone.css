@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#iphone_screen {
+    width: 99.8%;
+    height: auto;
+    padding-top: 44px;
+    /* border: 1px solid red; */
+}
+
+#iSubNav {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 72px;
+    background-color: rgb(28, 39, 57);
+
+    /* display: flex;
+    justify-content: space-between; */
+    font-size: 15px;
+
+    margin: auto;
+}
+
+#iSubNav_main {
+    /* border: 1px solid red; */
+    /* width: 50%; */
+    height: 72px;
+    padding: 16px 0px;
+
+
+
+    margin: auto;
+    /* margin-left: 80px; */
+}
+
+#iSubNav_text>p {
+    width: 52%;
+    color: rgb(240, 227, 202);
+    letter-spacing: 0.1px;
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "SF Pro Text";
+    /* border: 1px solid; */
+    text-align: center;
+    margin: auto;
+}
+
+#iSubNav_text>p>span {
+
+    color: rgb(243, 154, 69);
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "SF Pro Text";
+    /* border: 1px solid green; */
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#iSubNav_text>p>span:hover {
+    text-decoration: underline;
+}
+
+#store_main {
+
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    background-color: rgb(245, 245, 247);
+
+}
+
+#iphone_h1 {
+    height: 225px;
+    width: 82.4%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 70px; */
+}
+
+#i_h1_right {
+    /* border: 1px solid red; */
+    width: 55.4%;
+    height: 52px;
+    padding: 80px 0px 64px 0px;
+    letter-spacing: 0.144px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    color: rgb(29, 29, 31);
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+#i_h1_left {
+    padding: 90px 0px 45px 0px;
+}
+
+#i_h1_left_top,
+#i_h1_left_bottom {
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 16px; */
+
+}
+
+#ih1_l_t_text,
+#ih1_l_b_text {
+
+    width: 175px;
+}
+
+#ih1_l_t_text>p,
+#ih1_l_b_text>p {
+    margin-left: 8px;
+    color: rgb(29, 29, 31);
+    cursor: text;
+    letter-spacing: -0.224px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+
+
+    text-align: left;
+}
+
+
+#ih1_l_t_text>p:nth-child(2),
+#ih1_l_b_text>p:nth-child(2) {
+    color: rgb(0, 102, 204);
+    cursor: pointer;
+    letter-spacing: -0.224px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+
+    text-align: left;
+
+
+}
+
+#ih1_l_t_text>p:nth-child(2):hover,
+#ih1_l_b_text>p:nth-child(2):hover {
+    text-decoration-line: underline;
+}
+
+#ih1_l_t_img,
+#ih1_l_b_img {
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    width: 22px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 6px 0px 0px;
+}
+
+#iscroll_1 {
+    width: 994.5px;
+    height: 60px;
+    margin-bottom: 41px;
+    /* border: 1px solid green; */
+    /* border: 1px solid red; */
+    display: flex;
+    /* margin-top: 10px; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+    padding: 0px;
+}
+
+#iscroll_1::-webkit-scrollbar {
+    display: block;
+}
+
+#i_scoll_1_blank {
+    /* border: 1px solid black; */
+    min-width: 122px;
+    height: 31px;
+    text-align: center;
+    margin-right: -12px;
+}
+
+#i_scoll_1_1 {
+    /* border: 1px solid black; */
+    width: 83px;
+    height: 31px;
+    margin: 5px 35px 5px 5px;
+    text-align: center;
+    /* margin: 0px 12px; */
+    cursor: pointer;
+}
+
+#i_scoll_1_2>p,
+#i_scoll_1_3>p,
+#i_scoll_1_4>p,
+#i_scoll_1_5>p,
+#i_scoll_1_6>p {
+    color: rgb(29, 29, 31);
+    font-family: "SF Pro";
+    font-size: 17px;
+    /* border: 1px solid green; */
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#i_scoll_1_1>p {
+    color: rgb(29, 29, 31);
+    font-family: "SF Pro";
+    font-size: 17px;
+    text-decoration: underline;
+    /* border: 1px solid green; */
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#i_scoll_1_1>p:hover,
+#i_scoll_1_2>p:hover,
+#i_scoll_1_3>p:hover,
+#i_scoll_1_4>p:hover,
+#i_scoll_1_5>p:hover,
+#i_scoll_1_6>p:hover {
+    /* text-decoration: underline rgb(110, 110, 115); */
+    color: rgb(110, 110, 115);
+}
+
+#i_scoll_1_2 {
+    /* border: 1px solid black; */
+    width: 126px;
+    height: 31px;
+    margin: 5px 35px 5px 5px;
+    text-align: center;
+    /* margin: 0px 12px; */
+    cursor: pointer;
+}
+
+#i_scoll_1_3 {
+    /* border: 1px solid black; */
+    width: 131px;
+    height: 31px;
+    margin: 5px 35px 5px 5px;
+    text-align: center;
+    /* margin: 0px 12px; */
+    cursor: pointer;
+}
+
+#i_scoll_1_4 {
+    /* border: 1px solid black; */
+    width: 144.3px;
+    height: 31px;
+    margin: 5px 35px 5px 5px;
+    text-align: center;
+    /* margin: 0px 12px; */
+    cursor: pointer;
+}
+
+#i_scoll_1_5 {
+    /* border: 1px solid black; */
+    width: 144.3px;
+    height: 31px;
+    margin: 5px 35px 5px 5px;
+    text-align: center;
+    /* margin: 0px 12px; */
+    cursor: pointer;
+}
+
+#i_scoll_1_6 {
+    /* border: 1px solid black; */
+    width: 175.5px;
+    height: 31px;
+    margin: 5px 35px 5px 5px;
+    text-align: center;
+    /* margin: 0px 12px; */
+    cursor: pointer;
+}

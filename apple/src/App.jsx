@@ -5,6 +5,7 @@ import HomePage from './Components/HomePage';
 import Store from './Components/Store';
 import SignIn from './Components/SignIn';
 import Cart from './Components/Cart';
+import IPhone from './Components/IPhone';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,8 @@ function App() {
    <Route path='/store' element={<Store/>}/>
    <Route path='/cart' element={<Cart/>}/>
    <Route path='/signin' element={<SignIn/>}/>
+   
+   <Route path='/iphone' element={<IPhone/>}/>
   
     </Routes>
    <Footer/>

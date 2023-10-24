@@ -5,8 +5,10 @@ import exchange_p from '../Images/exchange-svgrepo-com (1).png'
 
 import truck from '../Images/svgviewer-png-output (4).png'
 import Header from './Header'
+import { useNavigate } from 'react-router-dom'
 
 const Store = () => {
+	const router=useNavigate();
 
 	
 	return (
@@ -60,7 +62,7 @@ const Store = () => {
 							<p>Mac</p>
 						</div>
 
-						<div id="store_scoll">
+						<div id="store_scoll" onClick={()=>router('/iphone')}>
 							<div id="store_scoll_img"><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=200&hei=130&fmt=png-alpha&.v=1692971740071" alt="" /></div>
 							<p>iPhone</p>
 						</div>

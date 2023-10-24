@@ -9,20 +9,21 @@ const Cart = () => {
 
         <div id='cart_screen'>
             <div id="cSubNav">
+               
                 <div id="cSubNav_main">
-                    <div id="cSubNav_leftArrow"><i class="fa-solid fa-angle-left"></i></div>
+                    
 
                     <div id="cSubNav_text">
-                        <p>Get ₹18000.00–₹67800.00 in credit towards iPhone 15 or iPhone 15 Pro when you trade in an iPhone 11 or higher.* </p>
-                        <div id="cSubNave_text_span">
-                            <p>Shop iPhone  </p>
-
-                        </div>
+                        <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.  §§ Plus No Cost EMI from most leading banks.§</p>
+                        <p> Learn More </p>
                     </div>
 
-                    <div id="cSubNav_rightarrow"><i class="fa-solid fa-angle-right"></i></div>
+                    
                 </div>
+               
             </div>
+           
+       
             <div id='cart_main'>
                 <div id='cart_h1'>
                     <h1>
