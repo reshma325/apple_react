@@ -192,7 +192,7 @@
     display: block;
 }
 
-#i_scoll_1_blank {
+#i_scroll_1_blank {
     /* border: 1px solid black; */
     min-width: 122px;
     height: 31px;
@@ -200,7 +200,7 @@
     margin-right: -12px;
 }
 
-#i_scoll_1_1 {
+#i_scroll_1_1 {
     /* border: 1px solid black; */
     width: 83px;
     height: 31px;
@@ -210,11 +210,11 @@
     cursor: pointer;
 }
 
-#i_scoll_1_2>p,
-#i_scoll_1_3>p,
-#i_scoll_1_4>p,
-#i_scoll_1_5>p,
-#i_scoll_1_6>p {
+#i_scroll_1_2>p,
+#i_scroll_1_3>p,
+#i_scroll_1_4>p,
+#i_scroll_1_5>p,
+#i_scroll_1_6>p {
     color: rgb(29, 29, 31);
     font-family: "SF Pro";
     font-size: 17px;
@@ -226,7 +226,7 @@
     white-space: nowrap;
 }
 
-#i_scoll_1_1>p {
+#i_scroll_1_1>p {
     color: rgb(29, 29, 31);
     font-family: "SF Pro";
     font-size: 17px;
@@ -239,17 +239,17 @@
     white-space: nowrap;
 }
 
-#i_scoll_1_1>p:hover,
-#i_scoll_1_2>p:hover,
-#i_scoll_1_3>p:hover,
-#i_scoll_1_4>p:hover,
-#i_scoll_1_5>p:hover,
-#i_scoll_1_6>p:hover {
+#i_scroll_1_1>p:hover,
+#i_scroll_1_2>p:hover,
+#i_scroll_1_3>p:hover,
+#i_scroll_1_4>p:hover,
+#i_scroll_1_5>p:hover,
+#i_scroll_1_6>p:hover {
     /* text-decoration: underline rgb(110, 110, 115); */
     color: rgb(110, 110, 115);
 }
 
-#i_scoll_1_2 {
+#i_scroll_1_2 {
     /* border: 1px solid black; */
     width: 126px;
     height: 31px;
@@ -259,7 +259,7 @@
     cursor: pointer;
 }
 
-#i_scoll_1_3 {
+#i_scroll_1_3 {
     /* border: 1px solid black; */
     width: 131px;
     height: 31px;
@@ -269,7 +269,7 @@
     cursor: pointer;
 }
 
-#i_scoll_1_4 {
+#i_scroll_1_4 {
     /* border: 1px solid black; */
     width: 144.3px;
     height: 31px;
@@ -279,7 +279,7 @@
     cursor: pointer;
 }
 
-#i_scoll_1_5 {
+#i_scroll_1_5 {
     /* border: 1px solid black; */
     width: 144.3px;
     height: 31px;
@@ -289,7 +289,7 @@
     cursor: pointer;
 }
 
-#i_scoll_1_6 {
+#i_scroll_1_6 {
     /* border: 1px solid black; */
     width: 175.5px;
     height: 31px;
@@ -297,4 +297,221 @@
     text-align: center;
     /* margin: 0px 12px; */
     cursor: pointer;
+}
+
+
+#iscroll_2 {
+    /* border: 1px solid black; */
+    margin-top: 90px;
+}
+
+#iscroll_2>p {
+    padding-left: 118px;
+    color: rgb(29, 29, 31);
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
+
+}
+
+#iscroll_2>p>span {
+    color: rgb(110, 110, 115);
+}
+
+#iscroll_2_main {
+    border: 1px solid grey;
+    display: flex;
+    overflow-x: scroll;
+    padding: 25px 0px;
+    cursor: pointer;
+}
+
+#iscroll_2_main::-webkit-scrollbar {
+    display: none;
+}
+
+#iscroll_2_main>div {
+    transition: 0.4s;
+    box-shadow: 1px 1px 20px 1px rgba(200, 200, 200, 0.3);
+}
+
+#iscroll_2_main>div:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 20px 1px rgb(200, 200, 200);
+}
+
+#iscroll_2_blank {
+    /* border:1px solid red; */
+    min-width: 117px;
+    margin-right: -10px;
+}
+
+#iscroll_2_15Pro_Max{
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1693086290312);
+    color: white;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    background-position: center;
+    margin: 0px 10px;
+}
+
+#iscroll_2_15_Plus {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15hero-202309?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1693086290559);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#iscroll_2_14_Plus {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone14-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1693086290654);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#iscroll_2_13 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone13hero-202309?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1692912410963);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#iscroll_2_SE {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphonese-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646415838921);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#iscroll_2_accessories {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-accessories-202309?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1692818856325);
+    color: white;
+    border-radius: 18px;
+    min-width: 400px;
+    height: 500px;
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#iscroll_2_card {
+    padding: 30px;
+    letter-spacing: 0.8px;
+    height: 63.2px;
+    border: 1px solid red;
+}
+
+/* #iscroll_2_card_name_W {
+    color: rgb(245, 245, 247);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+
+
+
+    line-height: 16px;
+
+}
+
+#iscroll_2_card_text_W {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+}
+
+#iscroll_2_card_price_W {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+
+    line-height: 21px;
+    letter-spacing: -0.374px;
+    font-family: "SF Pro";
+    margin-top: 8px;
+} */
+
+
+#iscroll_2_card_name {
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+    /* margin-top: 10px; */
+
+
+
+    line-height: 32px;
+}
+
+#iscroll_2_card_text {
+    color:rgb(191, 72, 0);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+}
+
+#iscroll_2_card_price {
+    color: rgb(29, 29, 31);
+    font-size: 17px;
+    font-weight: 400;
+
+    line-height: 21px;
+    letter-spacing: -0.374px;
+    font-family: "SF Pro";
+    margin-top: 8px;
+}
+#bottom{
+    width: 325px;
+    height: 36px;
+    margin-top: 290px;
+    /* padding: 0px 30px 30px 30px; */
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom>p{
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    font-weight: 400;
+    width: 80%;
+    border: 1px solid;
+    height: 100%;
+
+    line-height: 18px;
+    letter-spacing: -0.374px;
+    font-family: "SF Pro";
+    margin-top: 8px;
+
 }

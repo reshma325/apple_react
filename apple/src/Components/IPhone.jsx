@@ -9,7 +9,7 @@ const IPhone = () => {
 
 
                     <div id="iSubNav_text">
-                        <p>Save up to ₹6000.00 instantly on iPhone with HDFC Bank Credit Cards.§§ Plus No Cost EMI from most leading banks.§  <span> &nbsp;See Offers  </span></p>
+                        <p>Save up to ₹6000.00 instantly on iPhone with HDFC Bank Credit Cards.§§ Plus No Cost EMI from most leading banks.§  <span> _nbsp;See Offers  </span></p>
 
                     </div>
 
@@ -38,35 +38,95 @@ const IPhone = () => {
                     </div>
                 </div>
                 <div id='iscroll_1'>
-                    <div id="i_scoll_1_blank">
+                    <div id="i_scroll_1_blank">
                     </div>
-                    <div id="i_scoll_1_1">
-							
-							<p>All Models</p>
-						</div>
-                         <div id="i_scoll_1_2">
-							
-							<p>Festival specials.</p>
-						</div> 
-                        <div id="i_scoll_1_3">
-							
-							<p>Shopping Guide </p>
-						</div>
-                         <div id="i_scoll_1_4">
-							
-							<p>Accesories</p>
-						</div>
-                        <div id="i_scoll_1_5">
-							
-							<p>Setup and Support</p>
-						</div> 
-                        <div id="i_scoll_1_6">
-							
-							<p>The iPhone Experience</p>
-						</div>
-                       
-                   
+                    <div id="i_scroll_1_1">
 
+                        <p>All Models</p>
+                    </div>
+                    <div id="i_scroll_1_2">
+
+                        <p>Festival specials.</p>
+                    </div>
+                    <div id="i_scroll_1_3">
+
+                        <p>Shopping Guide </p>
+                    </div>
+                    <div id="i_scroll_1_4">
+
+                        <p>Accesories</p>
+                    </div>
+                    <div id="i_scroll_1_5">
+
+                        <p>Setup and Support</p>
+                    </div>
+                    <div id="i_scroll_1_6">
+
+                        <p>The iPhone Experience</p>
+                    </div>
+
+
+
+                </div>
+                <div id="iscroll_2">
+                    <p> All models.<span>Take your pick.</span></p>
+                    <div id="iscroll_2_main">
+                        <p id="iscroll_2_blank">
+                        </p>
+                        <div id="iscroll_2_15Pro_Max">
+                            <div id='iscroll_2_card'>
+                                <p id="iscroll_2_card_text">NEW</p>
+                                <p id='iscroll_2_card_name'>iPhone 15 Pro &<br />iPhone 15 Pro Max</p>
+                                <div id='bottom'>
+                                    <p> From ₹21483.00/mo.Per Month with instant savings§§<br/> and No Cost EMI§ or ₹134900.00 ‡</p>
+                                    <button>Buy</button>
+                                </div>
+                                {/* <p id="iscroll_2_card_price">From ₹134900.00‡</p> */}
+                            </div>
+                        </div>
+
+                        <div id="iscroll_2_15_Plus">
+                            <div id='iscroll_2_card'>
+                                <p id="iscroll_2_card_text">NEW </p>
+                                <p id='iscroll_2_card_name'>iPhone 15 &<br />iPhone 15 Plus</p>
+
+                                {/* <p id="iscroll_2_card_price">From ₹79900.00‡</p> */}
+                            </div>
+                        </div>
+                        <div id="iscroll_2_14_Plus">
+                            <div id='iscroll_2_card'>
+                                <p id="iscroll_2_card_text" style={{ color: "white" }}>NEW</p>
+                                <p id='iscroll_2_card_name'>iPhone 14 &<br />iPhone 14 Plus</p>
+
+                                {/* <p id="iscroll_2_card_price">From ₹41900.00‡</p> */}
+                            </div>
+                        </div>
+                        <div id="iscroll_2_13">
+                            <div id='iscroll_2_card'>
+                                <p id="iscroll_2_card_text" style={{ color: "white" }}>NEW</p>
+                                <p id='iscroll_2_card_name'>iPhone 13</p>
+
+                                {/* <p id="iscroll_2_card_price">From ₹89900.00‡</p> */}
+                            </div>
+                        </div>
+                        <div id="iscroll_2_SE">
+                            <div id='iscroll_2_card'>
+                                <p id="iscroll_2_card_text" style={{ color: "white" }}>NEW</p>
+                                <p id='iscroll_2_card_name'>iPhone SE</p>
+
+                                {/* <p id="iscroll_2_card_price">From ₹24900.00‡</p> */}
+                            </div>
+                        </div>
+                        <div id="iscroll_2_accessories">
+                            <div id='iscroll_2_card'>
+
+                                <p id="iscroll_2_card_text" style={{ color: "white" }}>NEW</p>
+                                <p id='iscroll_2_card_name'>Explore all iPhone accessories. </p>
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
