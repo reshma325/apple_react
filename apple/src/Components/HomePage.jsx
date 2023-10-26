@@ -1,9 +1,13 @@
 import React from 'react'
 import './HomePage.css'
+import Header from './Header'
+import Footer from './Footer'
+
 
 const HomePage = () => {
     return (
         <div id='home_screen'>
+            <Header/>
             <div id='home_subnav'>
                 <div id='home_sub_main'>
                     <p>Get up to ₹8000.00 instant savings on selected products with eligible HDFC Bank cards. * <span className='element'>Shop Now</span> </p>
@@ -159,8 +163,9 @@ const HomePage = () => {
                 </div>
 
             </div>
-
+            <Footer/>
         </div>
+        
     )
 }
 

@@ -8,6 +8,7 @@
     width: 99.8%;
     height: auto;
     padding-top: 44px;
+    
     /* border: 1px solid red; */
 }
 
@@ -43,7 +44,7 @@
     font-family: "SF Pro Text";
     font-weight: 600;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 20px;  
     font-family: "SF Pro Text";
     /* border: 1px solid; */
     text-align: center;
@@ -322,7 +323,7 @@
 }
 
 #iscroll_2_main {
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     display: flex;
     overflow-x: scroll;
     padding: 25px 0px;
@@ -421,7 +422,7 @@
     padding: 30px;
     letter-spacing: 0.8px;
     height: 63.2px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* #iscroll_2_card_name_W {
@@ -482,36 +483,63 @@
     font-family: "SF Pro";
 }
 
-#iscroll_2_card_price {
-    color: rgb(29, 29, 31);
-    font-size: 17px;
-    font-weight: 400;
 
-    line-height: 21px;
-    letter-spacing: -0.374px;
-    font-family: "SF Pro";
-    margin-top: 8px;
-}
 #bottom{
-    width: 325px;
+    width: 100%;
     height: 36px;
+
     margin-top: 290px;
-    /* padding: 0px 30px 30px 30px; */
-    border: 1px solid green;
+
+    padding: 0px 10px 30px 0px;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: space-between;
 }
-#bottom>p{
+#bottom_{
+    width: 100%;
+    height: 36px;
+
+    margin-top: 328px;
+
+    padding: 0px 10px 30px 0px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottom>p,#bottom_>p{
     color: rgb(29, 29, 31);
     font-size: 14px;
     font-weight: 400;
-    width: 80%;
-    border: 1px solid;
+    width: 100%;
+    /* border: 1px solid; */
     height: 100%;
 
     line-height: 18px;
-    letter-spacing: -0.374px;
+    letter-spacing: 0px;
     font-family: "SF Pro";
     margin-top: 8px;
 
+}
+#bottom>button,#bottom_>button{
+    width: 68px;
+    height: 37.9px;
+    background-color: rgb(0, 113, 227);
+    padding: 7px 15px 9px 15px;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 70px;
+    font-family: "SF Pro";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 1px;
+    /* letter-spacing: 0.374px; */
+    /* border: 1px solid red; */
+    margin-top: 8px;
+
+
+    text-align: center;
+
+    cursor: pointer;
 }

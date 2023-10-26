@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#iphone15_screen {
+    width: 99.8%;
+    height: auto;
+
+border: 1px solid rgb(0, 255, 89);
+}
+#back{
+width: 100%;
+height: 150px;
+
+
+}
+
+#iphone15_main {
+    width: 980px;
+    box-shadow: 1px 1px 20px 1px rgb(200, 200, 200);
+    height: auto;
+    padding-top: 35px;
+    margin: auto;
+    background-color: white;
+    border-radius: 18px;
+    /* border: 2px solid red; */
+}
+
+#imain {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#imain_l {
+    width: 50%;
+    height: 90%;
+    /* border: 1px dotted rgb(94, 128, 0); */
+}
+
+#imain_l_nav {
+    width: 372px;
+    height: 42px;
+    /* border: 1px solid; */
+    padding-bottom: 16px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#imain_l_nav_l {
+    width: 91px;
+    height: 20px;
+    padding: 10px 24px 10px 24px;
+    /* border: 1px solid; */
+    margin: 2px 3px 4px 3px;
+    border-bottom-left-radius: 980px;
+    border-bottom-right-radius: 980px;
+    border-top-left-radius: 980px;
+    border-top-right-radius: 980px;
+    background-color: rgb(232, 232, 237);
+    text-align: center;
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    /* letter-spacing: -0.22px; */
+
+
+}
+
+#imain_l_nav_r {
+    width: 118px;
+    height: 20px;
+    padding: 10px 24px 10px 24px;
+    /* border: 1px solid; */
+    margin: 2px 3px 4px 3px;
+    text-align: center;
+    font-family: "SF Pro";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#imain_l_img {
+    width: 400.1px;
+    height: 340.2px;
+    padding: 20px 50px 0px 50px;
+    /* border: 1px solid; */
+    margin: auto;
+
+}
+
+#imain_l_img>img {
+    padding: 0px 0px 36px 0px;
+    text-align: center;
+}
+
+#imain_l_options {
+    width: 131.8px;
+    height: 10px;
+    /* border: 1px solid; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+
+
+}
+
+#imain_l_options>i {
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    /* border: 1px solid; */
+}
+
+#imain_l_text {
+    width: 400.1px;
+    height: 16px;
+    margin: auto;
+    /* border: 1px solid; */
+    color: rgb(110, 110, 115);
+    text-align: center;
+    font-family: "SF Pro";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    margin-top: 40px;
+}
+
+#imain_l_options_2 {
+    width: 70.1px;
+    height: 20px;
+    margin: auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#imain_r {
+    width: 50%;
+    height: 90%;
+    /* border: 1px dotted rgb(11, 0, 128); */
+}
+
+#imain_r_name {
+    color: rgb(29, 29, 31);
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.196px;
+    font-family: "SF Pro";
+    /* margin-top: 10px; */
+
+
+
+    line-height: 32px;
+}
+
+#imain_r_text {
+    color: rgb(191, 72, 0);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    font-family: "SF Pro";
+}
+
+#imain_r_bootom {
+    width: 100%;
+    height: 36px;
+
+    margin-top: 5px;
+
+    /* padding: 0px 10px 30px 0px; */
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#imain_r_bootom>p {
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    /* border: 1px solid; */
+    height: 100%;
+
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-family: "SF Pro";
+    /* margin-top: 8px; */
+
+}
+
+#imain_r_bootom>button {
+    width: 68px;
+    height: 37.9px;
+    background-color: rgb(0, 113, 227);
+    padding: 7px 15px 9px 15px;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 70px;
+    font-family: "SF Pro";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 30px;
+    /* letter-spacing: 0.374px; */
+    /* border: 1px solid red; */
+    margin-top: 8px;
+
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#imain_r_list_main {
+    width: 440px;
+    height: 405px;
+    /* border:1px solid ; */
+    padding-top: 21px;
+    /* margin-top: 20; */
+}
+
+#imain_r_list_1 {
+    width: 440px;
+    height: 63px;
+    border-bottom: 1px solid;
+    padding: 15px 0px;
+    display: flex;
+}
+
+#imain_r_list_1>img {
+    /* border: 1px solid; */
+    /* margin-bottom: 10px; */
+    width: 58px;
+    height: 100%;
+}
+
+#imain_r_list_1>p {
+    font-family: "SF Pro Text Bold";
+    /* font-weight: 400; */
+    font-size: 17px;
+    line-height: 21px;
+    white-space: pre-line;
+    margin-right: 2px;
+
+
+}
+
+#imain_r_list_2>p {
+    font-family: "SF Pro Text Bold";
+    /* font-weight: 400; */
+    font-size: 17px;
+    line-height: 21px;
+    white-space: pre-line;
+    margin-left: 10px;
+
+}
+
+#imain_r_list_2 {
+    width: 440px;
+    height: 42px;
+    border-bottom: 1px solid;
+    padding: 15px 0px;
+    display: flex;
+}
+
+#imain_r_list_2>img {
+
+    width: 58px;
+    height: 100%;
+}
+
+#imain_r_bottom {
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+    /* border:1px solid red; */
+    padding-top: 5px;
+    font-family: "SF Pro";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgb(0, 102, 204);
+    cursor: pointer;
+
+
+}
+
+#imain_r_bottom:hover {
+    text-decoration: underline;
+}
+
+#imain_r_bottom>span {
+    width: 7px;
+    height: 17px;
+    padding-left: 5px;
+    padding: 8px;
+    /* border:1px solid red; */
+}
+
+#ifooter {
+    width: 100%;
+    height: 53px;
+    background-color: rgb(245, 245, 247);
+    /* margin-top: 37px; */
+    /* border: 2px solid green; */
+    padding: 20px 0px 20px 0px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+
+}
+
+#ifooter_1 {
+    width: 273px;
+    height: 53px;
+    padding: 0px 40px;
+    /* border: 1px solid; */
+    display: flex;
+}
+
+#ifooter_img {
+    width: 31px;
+    height: 53px;
+    /* border: 1px solid red; */
+    margin-right: 8px;
+
+}
+
+#ifooter_img>i{
+    font-size: 24px;
+    color: rgb(104, 204, 69);
+    padding-right: 6px;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+  
+}
+
+#ifooter_img>img {
+    width: 24px;
+    height: 24px;
+}
+#ifooter_img_2>img {
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+    margin-right:8px;
+}
+
+#ifooter_2 {
+    width: 273px;
+    height: 53px;
+    padding: 0px 40px;
+    /* border: 1px solid; */
+    display: flex;
+}
+
+#ifooter_3 {
+    width: 273px;
+    height: 53px;
+    padding: 0px 40px;
+    /* border: 1px solid; */
+    display: flex;
+}
+
+#ifooter_text {
+    width: 183px;
+    height: 53px;
+    /* border: 1px solid; */
+}
+
+#ifooter_text>p:nth-child(1) {
+    width: 183px;
+    height: 18px;
+    padding-top: 5px;
+    /* border: 1px solid; */
+    font-family: "SF Pro text bold";
+    /* font-weight: 400; */
+    font-size: 14px;
+    line-height: 18px;
+    color:rgb(29, 29, 31);
+}
+
+#ifooter_text>p:nth-child(2) {
+    /* width: 183px; */
+    /* height: 18px; */
+    /* margin-top: .6px; */
+    /* border: 1px solid green; */
+    font-family: "SF Pro";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color:rgb(29, 29, 31);
+}

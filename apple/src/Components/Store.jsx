@@ -13,7 +13,7 @@ const Store = () => {
 	
 	return (
 		<div>
-			{/* <div className="navbar-bg"></div> */}
+		<Header/>
 			<div id='store_screen'>
 				<div id="sSubNav">
 					<div id="sSubNav_main">

@@ -3,11 +3,14 @@ import './Cart.css'
 import minus from '../Images/minus.png'
 import box from "../Images/box.png"
 import bag_ from '../Images/bag_.png'
+import Header from './Header'
+import Footer from './Footer'
 
 const Cart = () => {
     return (
-
         <div id='cart_screen'>
+      <Header/>
+
             <div id="cSubNav">
                
                 <div id="cSubNav_main">
@@ -335,7 +338,7 @@ const Cart = () => {
 
             </div>
 
-
+<Footer/>
         </div>
     )
 }

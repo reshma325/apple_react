@@ -6,20 +6,21 @@ import Store from './Components/Store';
 import SignIn from './Components/SignIn';
 import Cart from './Components/Cart';
 import IPhone from './Components/IPhone';
+import IPhone15 from './Components/IPhone15';
 function App() {
   return (
     <div className="App">
-      <Header/>
+    
     <Routes>
    <Route path='/' element={<HomePage/>}/>
    <Route path='/store' element={<Store/>}/>
    <Route path='/cart' element={<Cart/>}/>
    <Route path='/signin' element={<SignIn/>}/>
-   
+   <Route path='/iphone15' element={<IPhone15/>}/>
    <Route path='/iphone' element={<IPhone/>}/>
   
     </Routes>
-   <Footer/>
+
     </div>
   );
 }
