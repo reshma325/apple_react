@@ -25,7 +25,7 @@ const IPhone = () => {
                 </div>
                 <div id='iphone_main'>
                     <div id="iphone_h1">
-                        <p id="i_h1_right">Shope iPone</p>
+                        <p id="i_h1_right">Shop iPone</p>
                         <div id="i_h1_left">
                             <div id="i_h1_left_top">
                                 <div id="ih1_l_t_img"><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-chat-specialist-icon-202305?wid=35&hei=35&fmt=jpeg&qlt=95&.v=1684947928869" alt="" /></div>
@@ -44,7 +44,7 @@ const IPhone = () => {
                             </div>
                         </div>
                     </div>
-                    <div id='iscroll_1'>
+                    <div id='iscroll_1' >
                         <div id="i_scroll_1_blank">
                         </div>
                         <div id="i_scroll_1_1">
